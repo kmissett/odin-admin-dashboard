@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odin Project Admin Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="banner"><h1 class="site-title">Federalist</h1></div>
+  <header class="dashboard-header">
+    <div class="ribbon">
+      <form action="" method="GET" class="search-form">
+        <input class="search" type="search" name="search" id="s" />
+        <button type="submit" aria-label="Search">
+          <svg viewBox="-16 -16 32 32" class="icon icon-search"><g transform="rotate(-45) translate(0,2)"><path fill-rule="evenodd" d="M-1.5,16 v-8 a12,12,0,1,1,3,0 v8z M-1.5,5 a9,9,0,1,1,3,0 z " /></g></svg>
+        </button>
+      </form>
+      <nav class="ribbon-nav">
+        <a href="#" class="ribbon-nav-item" title="Notifications"><svg viewBox="-16 -16 32 32" class="icon icon-bell"><path d="M0,-13c12,0,4,8,15,26 h-30 M0,-13 c-12,0,-4,8,-15,26" /><circle r=2 cy=-13 /></svg></a>
+        <a href="#" class="ribbon-nav-item" title="Messages"><svg viewBox="-16 -16 32 32" class="icon icon-message"><rect width="28" height="20" x="-14" y="-10" rx="2"/><polygon points="14,14 14,6 6,6" /></svg></a>
+        <a href="#" class="user" title="User"><img class="avatar" src="avatars/hamilton.jpg" alt="Portrait of Alexander Hamilton"><span>Alexander Hamilton</span></a>
+      </nav>
+    </div>
+    <div class="header-main">
+      <div class="welcome">
+        <img class="avatar" src="avatars/hamilton.jpg" alt="Portrait of Alexander Hamilton">
+        <p><span class="hello">Hi there,</span>Alexander Hamilton <a href="#" class="handle">adotham</a></p>
+      </div>
+      <nav class="header-actions">
+        <button class="header-action">New</button>
+        <button class="header-action">Upload</button>
+        <button class="header-action">Share</button>
+      </nav>
+    </div>
+  </div>
+  </header>
+
+  <main class="dashboard-main">
+    <section class="projects" aria-labelledby="#projects">
+      <h2 id="projects">Your Projects</h2>
+      <div class="cards project-cards">
+        <div class="card project-card">
+          <h3 class="project">Federalist 82</h3>
+          <p>The Judiciary Continued</p>
+        </div>
+        <div class="card project-card">
+          <h3 class="project">Federalist 81</h3>
+          <p>The Judiciary Continued, and the Distribution of the Judicial Authority</p>
+        </div>
+        <div class="card project-card">
+          <h3 class="project">Federalist 80</h3>
+          <p>The Powers of the Judiciary</p>
+        </div>
+        <div class="card project-card">
+          <h3 class="project">Federalist 79</h3>
+          <p>The Judiciary Continued</p>
+        </div>
+        <div class="card project-card">
+          <h3 class="project">Federalist 78</h3>
+          <p>The Judiciary Department</p>
+        </div>
+        <div class="card project-card">
+          <h3 class="project">Federalist 68</h3>
+          <p>The Mode of Electing the President</p>
+        </div>
+        <div class="card project-card">
+          <h3 class="project">Federalist 17</h3>
+          <p>The Same Subject Continued: The Insufficiency of the Present Confederation to Preserve the Union</p>
+        </div>
+        <div class="card project-card">
+          <h3 class="project">Federalist 16</h3>
+          <p>The Same Subject Continued: The Insufficiency of the Present Confederation to Preserve the Union</p>
+        </div>
+        <div class="card project-card">
+          <h3 class="project">Federalist 15</h3>
+          <p>The Insufficiency of the Present Confederation to Preserve the Union</p>
+        </div>
+      </div>
+    </section>
+    <section class="announcements" aria-labelledby="#announcements">
+      <h2 id="announcements">Announcements</h2>
+      <div class="cards announcement-cards">
+        <div class="card announcement-card">
+          <h3>Site Maintenance</h3>
+          <p>Site will be down until this Whiskey thing is sorted out.</p>
+        </div>
+        <div class="card announcement-card">
+          <h3>Privacy Policy Update</h3>
+          <p>We're all going by "Publius" now.</p>
+        </div>
+        <div class="card announcement-card">
+          <h3>New Features</h3>
+          <p>Retractable quills!</p>
+        </div>
+      </div>
+    </section>
+    <section class="trending" aria-labelledby="#trending">
+      <h2 id="trending">Trending</h2>
+      <div class="trending-people">
+        <a class="trending-person" href="#">
+          <img class="avatar" src="avatars/madison.jpg" alt="Portrait">
+          <p class="handle">liljmads</p>
+        </a>
+        <a class="trending-person" href="#">
+          <img class="avatar" src="avatars/jay.jpg" alt="Portrait">
+          <p class="handle">jay</p>
+        </a>
+        <a class="trending-person" href="#" >
+          <img class="avatar" src="avatars/washington.jpg" alt="Portrait">
+          <p class="handle">thegeneral</p>
+        </a>
+        <a class="trending-person" href="#">
+          <img class="avatar" src="avatars/burr.jpg" alt="Portrait">
+          <p class="handle">adotburr</p>
+        </a>
+      </div>
+    </section>
+  </main>
+  <aside class="dashboard-sidebar">
+    <nav class="site-nav-main">
+      <a href="#" class="site-nav-item" aria-label="Home"><svg viewBox="-16 -16 32 32" class="icon icon-home"><path d="M0-12 l7,7 v-5 h3 v8 l5,5 h-5 v10 h-8 v-8 h-4 v8 h-8 v-10 h-5z"></path></svg><span>Home</span></a>
+      <a href="#" class="site-nav-item" aria-label="Messages"><svg viewBox="-16 -16 32 32" class="icon icon-message"><rect width="28" height="20" x="-14" y="-10" rx="2"/><polygon points="14,14 14,6 6,6" /></svg><span>Messages</span></a>
+      <a href="#" class="site-nav-item" aria-label="Profile"><svg viewBox="-16 -16 32 32" class="icon icon-profile"><path class="profile-border" fill-rule="evenodd" d="M-0.1,15 a15,15,0,1,1,0.2,0z m0,-2 a13,13,0,1,1,0.2,0z" /><g class="profile-figure"><circle r="5" cy="-5" /><path d="M-6,3 a8,6,0,0,1,12,0 l2,5 a13,13,0,0,1,-16,0z" /></svg><span>Profile</span></a>
+      <a href="#" class="site-nav-item" aria-label="Info"><svg viewBox="-16 -16 32 32" class="icon icon-info"><path class="info-border" fill-rule="evenodd" d="M-0.1,15 a15,15,0,1,1,0.2,0z m0,-3 a12,12,0,1,1,0.2,0z" /><g class="profile-figure"><circle r="2" cy="-6.5" /><rect width="3" height="12" x="-1.5" y="-2" /></svg><span>Info</span></a>
+      <a href="#" class="site-nav-item" aria-label="Settings"><svg viewBox="-16 -16 32 32" class="icon icon-gear"><defs><path id="gt" d="M-2.5,-13 l-1,6 h7 l-1,-6" /></defs><use href="#gt" /><use href="#gt" transform="rotate(60)"/><use href="#gt" transform="rotate(120)"/><use href="#gt" transform="rotate(180)"/><use href="#gt" transform="rotate(240)"/><use href="#gt" transform="rotate(300)"/><path fill-rule="evenodd" d="M-0.1,9 a9,9,0,1,1,0.2,0z m0,-5 a4,4,0,1,1,0.2,0z" /></svg><span>Settings</span></a>
+    </nav>
+  </aside>
+</body>
+</html>

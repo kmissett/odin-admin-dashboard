@@ -1,0 +1,12 @@
+<svg viewBox="-15 -15 30 30" class="icon-share">
+  <rect width="30" height="30" x=-15 y=-15 fill=lightgreen />
+    <defs>
+    <path id="share-node" fill-rule="evenodd" d="
+      M-0.1,3 a3,3,0,1,1,0.2,0z M-0.1,1.5 a1.5,1.5,0,1,1,0.2,0"
+    />
+    </defs>
+    <use href="#share-node" transform="translate(-10,0)" />
+    <use href="#share-node" transform="translate(10,-10)" />
+    <use href="#share-node" transform="translate(10,10)" />
+    
+</svg>

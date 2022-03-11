@@ -1,0 +1,6 @@
+<svg viewBox="-16 -16 32 32" class="icon icon-info">
+  <path class="info-border" fill-rule="evenodd" d="M-0.1,15 a15,15,0,1,1,0.2,0z m0,-3 a12,12,0,1,1,0.2,0z" />
+  <g class="profile-figure">
+    <circle r="2" cy="-6.5" />
+    <rect width="3" height="12" x="-1.5" y="-2" />
+</svg>

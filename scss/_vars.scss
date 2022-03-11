@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Estonia&display=swap');
+
+:root {
+  --color-bg: hsl(40, 40%, 90%);
+  --color-primary: hsl(40, 40%, 10%);
+  --color-accent: hsl(10, 95%, 5%);
+  --color-accent-light: hsl(50, 100%, 50%);
+  --color-accent-lighter: hsl(50, 100%, 90%);
+  --color-accent-lightest: hsl(50, 100%, 100%);
+
+  --font-titles: "Estonia", script;
+  --font-primary: "EB Garamond", serif;
+
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  
+  --font-size: clamp(1.25rem, 1rem + 5vmin, 1.5rem);
+  --font-size-xs: calc(0.75 * var(--font-size));
+  --font-size-sm: calc(0.875 * var(--font-size));
+  --font-size-lg: calc(1.5 * var(--font-size));
+  --font-size-xl: calc(2 * var(--font-size));
+  --font-size-xxl: calc(4 * var(--font-size));
+
+  --line-height: 1;
+}

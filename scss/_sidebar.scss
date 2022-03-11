@@ -1,0 +1,50 @@
+.dashboard-sidebar {
+  background-color: var(--color-accent);
+  color: var(--color-bg);
+  position: fixed;
+  inset-block-end: 0;
+  width: 100%;
+  padding: 1rem;
+
+  @media screen and (min-width: 40rem) {
+    position: static;
+    grid-column: 1;
+    grid-row: 2/-1;
+
+    h1 {text-align: left;}
+  }
+}
+
+.site-nav-main {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 0.5em;
+  margin-inline: auto;
+  text-align: center;
+
+  @media screen and (min-width: 40rem) {
+    grid-auto-flow: initial;
+    text-align: left;
+    margin-inline: 0;
+    position: sticky;
+    inset-block-start:1em;
+  }
+  
+}
+
+.site-nav-item { 
+  text-decoration: none; 
+
+  &:hover { color: var(--color-accent-light); }
+  &:focus { outline: 2px solid var(--color-accent-light); }
+  
+  .icon {width: 1em; margin-inline-end: 0.25em;}
+  
+  span {
+    display: none;
+    
+    @media screen and(min-width: 40rem) {
+      display: initial;
+    }
+  }
+}

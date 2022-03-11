@@ -1,0 +1,9 @@
+<svg viewBox="-16 -16 32 32" class="icon-mail">
+  <!-- <rect width="100%" height="100%" x="-16" y="-16" fill="lightblue" /> -->
+    <path fill-rule="evenodd" d="
+      M-13,-10 h26 a1,1,0,0,1,1,1 v18 a1,1,0,0,1,-1,1 h-26 a1,1,0,0,1,-1,-1 v-18 a1,1,0,0,1,1,-1
+      M-12,-8h24 l-12,6
+      M-12,-6v14 h24 v-14 l-12,6
+      " />
+  </g>
+</svg>
